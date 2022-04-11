@@ -1,9 +1,8 @@
 function toggleEngine() {
-
   var gSearch = document.getElementById("gSearch");
   var dSearch = document.getElementById("dSearch");
   var logo = document.getElementById("engineLogo").src;
-  localStorage.setItem('preferredEngine', logo);
+  localStorage.setItem("preferredEngine", logo);
 
   if (logo.indexOf("duck.svg") != -1) {
     document.getElementById("engineLogo").src = "icons/google.svg";
