@@ -7,73 +7,30 @@
       src="https://kit.fontawesome.com/5901bc50e0.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <!-- <script src="scripts/search.js"></script>
-    <script src="scripts/load.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
 
   <body>
     <div class="container">
       <div class="head">
         <div class="search_box">
-          <img
-            class="engine"
-            id="engineLogo"
-            src="icons/google.svg"
-            onclick="toggleEngine()"
-            style="cursor: pointer"
-          />
-
-          <div id="gSearch" style="display: block">
-            <form
-              id="textField"
-              class="google"
-              action="https://google.com/search"
-              method="get"
-            >
-              <input
-                class="input_box"
-                type="text"
-                name="q"
-                placeholder="Search with Google"
-              />
-              <button class="button">
-                <i class="fa-solid fa-2xl fa-magnifying-glass"></i>
-              </button>
-            </form>
-          </div>
-
-          <!-- <div id="dSearch" style="display: none">
-            <form class="duck" action="https://duckduckgo.com/" method="get">
-              <input
-                class="input_box"
-                type="text"
-                name="q"
-                placeholder="Search with DuckDuckGo"
-              />
-              <button class="button">
-                <i class="fa-solid fa-xl fa-magnifying-glass"></i>
-              </button>
-            </form>
-          </div>
-
-          <div id="awSearch" style="display: none">
-            <form
-              class="arch"
-              action="https://wiki.archlinux.org/"
-              method="get"
-            >
-              <input
-                class="input_box"
-                type="text"
-                name="q"
-                placeholder="Search Arch Wiki"
-              />
-              <button class="button">
-                <i class="fa-solid fa-xl fa-magnifying-glass"></i>
-              </button>
-            </form>
-          </div> -->
+          <i class="fa-solid fa-xl fa-gear engine"></i>
+          <form
+            id="textField"
+            class="duckduckgo"
+            action="https://duckduckgo.com/"
+            method="get"
+          >
+            <input
+              class="input_box"
+              type="text"
+              name="q"
+              placeholder="Search with Duckduckgo"
+            />
+            <button class="button">
+              <i class="fa-solid fa-2xl fa-magnifying-glass"></i>
+            </button>
+          </form>
         </div>
       </div>
 
@@ -82,29 +39,23 @@
           <div class="icon"><i class="fa-solid fa-xl fa-terminal"></i></div>
           <div class="bookmarks cod">
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://codecombat.com/">Code Combat</a>
             </li>
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://tryhackme.com/">Tryhackme</a>
             </li>
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://codepen.io/">Codepen</a>
             </li>
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://www.shortcutfoo.com/">Shortcutfoo</a>
             </li>
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://www.theodinproject.com/"
                 >Odin Project</a
               >
             </li>
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://www.freecodecamp.org/"
                 >Freecodecamp</a
               >
@@ -112,65 +63,22 @@
           </div>
         </div>
 
-        <div class="bookmark2">
-          <div class="category">
-            <div class="icon"><i class="fa-solid fa-xl fa-terminal"></i></div>
-            <div class="bookmarks cod">
-              <li>
-                <i class="fa-solid fa-arrow-right-from-bracket"></i>
-                <a class="bm" href="https://codecombat.com/">Code Combat</a>
-              </li>
-              <li>
-                <i class="fa-solid fa-arrow-right-from-bracket"></i>
-                <a class="bm" href="https://tryhackme.com/">Tryhackme</a>
-              </li>
-              <li>
-                <i class="fa-solid fa-arrow-right-from-bracket"></i>
-                <a class="bm" href="https://codepen.io/">Codepen</a>
-              </li>
-              <li>
-                <i class="fa-solid fa-arrow-right-from-bracket"></i>
-                <a class="bm" href="https://www.shortcutfoo.com/"
-                  >Shortcutfoo</a
-                >
-              </li>
-              <li>
-                <i class="fa-solid fa-arrow-right-from-bracket"></i>
-                <a class="bm" href="https://www.theodinproject.com/"
-                  >Odin Project</a
-                >
-              </li>
-              <li>
-                <i class="fa-solid fa-arrow-right-from-bracket"></i>
-                <a class="bm" href="https://www.freecodecamp.org/"
-                  >Freecodecamp</a
-                >
-              </li>
-            </div>
-          </div>
-        </div>
-
         <div class="category">
           <div class="icon"><i class="fa-regular fa-xl fa-folder"></i></div>
           <div class="bookmarks doc">
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://www.w3schools.com/">W3C Schools</a>
             </li>
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://developer.mozilla.org/en-US/">MDN</a>
             </li>
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://devdocs.io/">Devdocs</a>
             </li>
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://devhints.io/">Devhints</a>
             </li>
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://cheat.sh/">Cheat.sh</a>
             </li>
           </div>
@@ -180,23 +88,18 @@
           <div class="icon"><i class="fa-solid fa-xl fa-circle-play"></i></div>
           <div class="bookmarks ent">
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://www.youtube.com/">Youtube</a>
             </li>
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://github.com/">Github</a>
             </li>
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://www.facebook.com/">Facebook</a>
             </li>
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://mail.google.com/">Gmail</a>
             </li>
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://www.reddit.com/">Reddit</a>
             </li>
           </div>
@@ -208,7 +111,6 @@
           </div>
           <div class="bookmarks mus">
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://music.youtube.com/">Youtube Music</a>
             </li>
           </div>
@@ -218,32 +120,34 @@
           <div class="icon"><i class="fa-solid fa-xl fa-dice-d20"></i></div>
           <div class="bookmarks art">
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://danielyxie.github.io/bitburner/"
                 >Bitburner</a
               >
             </li>
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://martintale.itch.io/spirit-dungeons"
                 >Spirit Dungeons</a
               >
             </li>
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://trello.com/">Trello</a>
             </li>
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://www.notion.so/">Notion</a>
             </li>
             <li>
-              <i class="fa-solid fa-arrow-right-from-bracket"></i>
               <a class="bm" href="https://www.mega.io">Mega</a>
             </li>
           </div>
         </div>
       </div>
+    </div>
+    <div class="footer">
+      <p>
+        <script>
+          document.write(new Date().toDateString());
+        </script>
+      </p>
     </div>
   </body>
 </html>
