@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Start Page</title>
+    <script
+      src="https://kit.fontawesome.com/5901bc50e0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="newstyle.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="terminal">
+        <div id="term"></div>
+      </div>
+      <div class="search">
+        <div class="search-box">
+          <form id="prompt" class="textField">
+            <input
+              class="input_box"
+              id="parse"
+              value=""
+              type="text"
+              placeholder="Input"
+            />
+            <button type="button" onclick="parser()">Click</button>
+          </form>
+        </div>
+      </div>
+      <div class="bookmark-grid">
+        <div class="category">
+          <div class="bookmarks"></div>
+        </div>
+        <div class="category">
+          <div class="bookmarks"></div>
+        </div>
+        <div class="category">
+          <div class="bookmarks"></div>
+        </div>
+        <div class="category">
+          <div class="bookmarks"></div>
+        </div>
+        <div class="category">
+          <div class="bookmarks"></div>
+        </div>
+      </div>
+      <div class="footer"></div>
+    </div>
+    <script src="src/main.js"></script>
+  </body>
+</html>
